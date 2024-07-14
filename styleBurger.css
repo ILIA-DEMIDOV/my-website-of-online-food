@@ -1,0 +1,244 @@
+*{
+    padding:0;
+    margin:0;
+}
+html{ box-sizing:border-box;
+
+}
+body{
+    margin:0 auto;
+    height:100%;
+    flex-direction: column;
+    font-weight:500;
+    font-size:35px;
+    line-height:43px;
+    color:black;
+    background: #ffffff;
+}
+.page_header{
+    width: 1900px;
+    min-height: 900px;
+    background-image:linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%);
+}
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 70px;
+    padding-top: 105;
+    padding-right: 65;
+
+}
+.logo{
+    display: block;
+    margin-top: 8px;
+}
+.navigation_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: auto 0;
+    padding: 0;
+    margin-left: 149px ;
+    list-style: none;
+}
+.navigation_title_main{
+    display:block;
+    min-width: 200px;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.3s ease;}
+
+.navigation_title_main:hover {
+    color: #e7e4e4; /* Цвет ссылки при наведении (темно-серый) */
+      }
+
+.navigation_button {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color:black;
+    border:none;
+    border-radius: 100px ;
+
+}
+.container_page_header{
+    display: flex;
+    padding-top: 25px;
+    gap:20px;
+    padding-left:  75px;
+}
+.text_header_list{
+    width: 600px;
+    margin: 0;
+    padding:200px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.text_header{ 
+    margin: 0;
+    padding: 0;
+    padding-top: 190px;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 40px;
+        
+}
+
+.container_button_header{
+    padding: 24px 48px;
+    border: none;
+    border-radius: 20px;
+    font-size: 28px;
+    color: #fff;
+    background: #7d185f;
+    box-shadow: 0 4px 8px 0 rgba(39, 153, 214, 0.35);
+    cursor: pointer;
+      }
+      
+.container_button_header:hover {
+    background: #bd599f;
+    box-shadow: 0 4px 16px 0 rgba(39, 153, 214, 0.25);
+}
+.button-container {
+    padding: 30px; /* Отступ вокруг кнопки */
+  }
+  
+  /* Стили для ссылки, чтобы сделать её похожей на кнопку */
+.logo-button-container {
+    display: inline-block;
+    padding: 10px 0px;
+    border-radius: 8px; /* Скругление углов */
+    text-decoration: none; /* Убираем подчеркивание текста */
+    background-color: #e4b50d00; /* Цвет фона кнопки */
+    transition: all 0.3s ease; /* Плавный переход для всех изменений */
+}
+  
+  /* Стили для изображения внутри кнопки */
+.logo-button img {
+    display: block; /* Убирает отступы вокруг картинки */
+    width: 120%; /* Делаем изображение на всю ширину кнопки */
+    height: auto; /* Сохраняем пропорции изображения */
+ }
+  
+  /* Анимация при наведении курсора */
+.logo-button-container:hover {
+    background-color: #b34b0000; /* Изменение цвета фона при наведении */
+    transform: scale(1.1); /* Увеличение кнопки при наведении */
+}
+.logo-button-container-2:hover {
+    background-color: #b34b0000; /* Изменение цвета фона при наведении */
+    transform: scale(2); /* Увеличение кнопки при наведении */
+}
+  
+.logo-button:active {
+    transform: scale(0.9); /* Уменьшение кнопки при клике */
+}
+
+.page_main{
+    width: 1900px;
+    min-height: 900px;
+    text-align: center;
+}
+
+.container_catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.catalog_title {
+    margin: 0;
+    padding:0;
+    font-size: 45px;
+    line-height: 55px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.catalog_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 40px;
+    padding: 0;
+    gap: 40px 30px;
+    list-style: none;
+}
+.catalog_item {
+    width: 450px;
+}
+.catalog_text{
+    margin:0;
+    padding: 0;
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page_footer{
+    width: 1900px;
+    min-height: 450px;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #EDA61D 100%);
+}
+.footer_list{
+    display:flex;
+    flex-wrap: wrap;
+    margin:0;
+    padding: 0;
+    padding-top: 160px;
+    gap: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    justify-content: center;
+    list-style: none;
+}
+.footer_title {
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    transition: filter 0.3s ease;
+
+}
+.footer_title:hover {
+    margin:0;
+    padding: 0;
+    color: rgba(109, 106, 106, 0.857);
+    text-decoration: underline;
+    filter: brightness(1.2);
+
+}
+
+.footer_contacts{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    list-style: none;
+    padding-top: 25px;
+}
+
+.last-text{
+    width: 1600px;
+    min-height: 100px;
+    margin:0;
+    padding: 0;
+    padding-left: 150px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.last-text-2{
+    font-size: 16px;
+}
